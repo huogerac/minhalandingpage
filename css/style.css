@@ -2,30 +2,93 @@ body {
   font-family: "Lora", serif;
 }
 
+.titulo {
+  margin-top: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.titulo--fonte {
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.9rem;
+}
+
+.fonte--grande {
+  font-size: 3.2rem;
+}
+
+.fonte--media {
+  font-size: 1.7rem;
+}
+.fonte--pequena {
+  font-size: 1.2rem;
+}
+
 .background {
-  background-color: #2e2d4c;
   background-image: url(../img/background-foods-v4.png);
   background-attachment: fixed;
+  background-color: #2e2d4c;
+  padding: 2px;
+}
+
+.cabecalho {
+  width: 72%;
+  color: #fff;
+  margin: 100px auto;
+  padding: 30px;
+  text-align: center;
 }
 
 .conteudo {
   line-height: 3rem;
   width: 72%;
+  max-width: 940px;
+  color: #4d3c64;
+  border-radius: 0.5rem;
+  background-color: #fff;
   margin: auto;
-  background-color: white;
-  padding: 50px;
-  border-radius: 10px;
+  margin-bottom: 220px;
+  padding: 60px;
+  box-shadow: -10px 8px 30px #312f2f;
+  z-index: 2;
 }
 
-.cabecalho {
+.subtitle--color {
+  color: #c0bcc9;
+}
+
+.avatar {
+  width: 140px;
+  float: left;
+  margin-right: 20px;
+}
+
+.logo {
   text-align: center;
-  color: #fff;
-  margin: auto;
-  padding: 30px;
 }
 
 .logo img {
-  width: 220px;
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.pa2 {
+  padding: 6px;
+}
+
+.pa4 {
+  padding: 12px;
+}
+
+.pr2 {
+  padding-right: 6px;
+}
+
+.pr4 {
+  padding-right: 12px;
+}
+
+.navigation {
+  margin-bottom: 50px;
 }
 
 .navigation li {
@@ -37,38 +100,53 @@ body {
 
 .navigation li a:link,
 .navigation li a:visited {
-  color: gray;
+  color: #c0bcc9;
   text-decoration: none;
 }
 
 .navigation li a:hover {
-  color: #494848;
+  color: #65636b;
   text-decoration: underline;
 }
 
 .navigation li a:active {
-  color: #100d66;
-  text-decoration: underline;
+  color: #3b257c;
 }
 
-.avatar {
-  float: left;
-  width: 140px;
-  padding: 20px;
-  margin-right: 20px;
+.fotos img {
+  border-radius: 8px;
+  filter: grayscale(0.4);
+  width: 448px;
+  height: 240px;
+  object-fit: cover;
+  margin-right: 18px;
+  margin-top: 4px;
 }
 
-.fonte--media {
-  font-size: 1.7rem;
+.fotos img:hover {
+  filter: none;
 }
 
-.titulo {
-  font-size: 1.9rem;
-  margin-top: 50px;
+ul.experiencia {
+  padding-left: 26px;
 }
 
-.titulo--fonte {
-  font-family: "Exo 2", sans-serif;
+.btn-inicio {
+  width: 60px;
+  background-color: white;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 2.8rem;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+.btn-inicio:hover {
+  opacity: 0.9;
 }
 
 .habilidades label {
@@ -78,34 +156,4 @@ body {
 
 .habilidades progress {
   accent-color: #2e2d4c;
-}
-
-.fotos img {
-  border-radius: 8px;
-  width: 450px;
-  height: 240px;
-  filter: grayscale(0.4);
-}
-
-.fotos img:hover {
-  filter: none;
-}
-
-.btn-inicio {
-  font-size: 3rem;
-  color: #fff;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 50%;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  opacity: 0.3;
-}
-
-.btn-inicio:hover {
-  opacity: 1;
 }
