@@ -157,3 +157,11 @@ ul.experiencia {
 .habilidades progress {
   accent-color: #2e2d4c;
 }
+
+.footer {
+  position: relative;
+  padding: 120px;
+  background-color: #1b1a2f;
+  color: #fff;
+  text-align: center;
+}
