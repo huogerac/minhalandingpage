@@ -185,3 +185,12 @@ ul.experiencia {
   margin-top: -50px;
   transform: translateX(50%) rotate(45deg);
 }
+
+.footer .links a {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.footer .links a:hover {
+  color: #fff;
+}
