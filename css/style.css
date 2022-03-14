@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lora", serif;
 }
@@ -193,4 +197,35 @@ ul.experiencia {
 
 .footer .links a:hover {
   color: #fff;
+}
+
+/* -- Apenas no mobile */
+@media (max-width: 720px) {
+  body {
+    position: absolute;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  .avatar {
+    width: 110px;
+  }
+
+  .fonte--grande {
+    font-size: 2.2rem;
+  }
+
+  .fonte--media {
+    font-size: 1.3rem;
+  }
+  .fonte--pequena {
+    font-size: 1rem;
+  }
+
+  .navigation li {
+    width: 130px;
+    font-size: 1.1rem;
+  }
 }
